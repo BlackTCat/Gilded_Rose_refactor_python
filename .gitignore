@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /.idea/
+/Gilded_Rose_refactor_python.iml
