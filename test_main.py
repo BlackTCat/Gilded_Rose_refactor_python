@@ -9,7 +9,7 @@ class maintest(unittest.TestCase):
         expected_values = (9, 39)
         self.assertEqual(expected_values, (item.sell_in, item.quality))
 
-    def test_new_item_sulfaras(self):
+    def test_new_item_sulfuras(self):
         item = NewItem("Sulfuras", 10, 80, Store.calc_method_quality_stable)
         for i in range(10):
             item.update_quality()
